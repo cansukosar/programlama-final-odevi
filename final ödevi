@@ -9,3 +9,6 @@ def yaz(x):
     #print(x)
 #yaz fonksiyonu tanımlandı.
 
+def sıfırla():
+    giris.delete(0, 'end')
+#AC butonunun işlevini yerine getirmesi için fonksiyon tanımlandı.
