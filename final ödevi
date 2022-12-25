@@ -16,3 +16,4 @@ def sıfırla():
 def teksil():
     metinuzunlugu = len(giris.get())
     giris.delete(metinuzunlugu-1, END)
+#sil komutunun çalışması için gereken fonksiyon tanımlandı.
