@@ -17,3 +17,9 @@ def teksil():
     metin uzunlugu = len(giris.get())
     giris.delete(metinuzunlugu-1, END)
 #sil komutunun çalışması için gereken fonksiyon tanımlandı.
+
+hesap = 5
+s1 = 0 
+#hesap değişkeni "global" değişken olarak tanımlandı. 
+def islemler(x):
+    global hesap 
