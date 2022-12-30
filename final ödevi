@@ -23,3 +23,11 @@ s1 = 0
 #hesap değişkeni "global" değişken olarak tanımlandı. 
 def islemler(x):
     global hesap 
+    hesap = x 
+    global sbir 
+    sbir = flooaat(giris.get())
+    print(hesap)
+    print(sbir)
+    giris.delete(0,'end')
+#işlemler fonksiyonu ve hesap adlı değişken tanımlandı 
+#ilk sayı yazıldıktan sonra ve yapılacak işlem belirlendikten sonra ikinci sayının yazılması için entry kısmının boşaltılması işlemi tanımlandı.
