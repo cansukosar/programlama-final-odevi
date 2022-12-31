@@ -14,7 +14,7 @@ def sıfırla():
 #AC butonunun işlevini yerine getirmesi için fonksiyon tanımlandı.
 
 def teksil():
-    metin uzunlugu = len(giris.get())
+    metinuzunlugu = len(giris.get())
     giris.delete(metinuzunlugu-1, END)
 #sil komutunun çalışması için gereken fonksiyon tanımlandı.
 
