@@ -24,10 +24,10 @@ s1 = 0
 def islemler(x):
     global hesap 
     hesap = x 
-    global sbir 
-    sbir = flooaat(giris.get())
+    global s1 
+    s1 = float(giris.get())
     print(hesap)
-    print(sbir)
+    print(s1)
     giris.delete(0,'end')
 #işlemler fonksiyonu ve hesap adlı değişken tanımlandı 
 #ilk sayı yazıldıktan sonra ve yapılacak işlem belirlendikten sonra ikinci sayının yazılması için entry kısmının boşaltılması işlemi tanımlandı.
