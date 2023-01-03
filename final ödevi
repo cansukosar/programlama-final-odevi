@@ -3,7 +3,7 @@ from distutils import command
 from tkinter import *
 
 def yaz(x):
-    s = len(giris.get())
+    ,s = len(giris.get())
     giris.insert(s,str(x))
 #yazılacak karakterler entry'e tanımlandı. "s" değişkeni tanımlandı. "len" komutuyla str değeri yeniden hesaplanacak ve "s" değerine atanacak. 
     #print(x)
