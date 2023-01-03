@@ -52,3 +52,13 @@ def hesapla () :
 #'s2' adı altında 2. sayı tanımlandı
 #toplama,çıkarma,bölme ve çarpma işlemleri gerçekleştirilmesi için if komutu ile bir döngü oluşturuldu.
 #'s2'değişkeni global olarak kullanılacağı için global değişken olarak tanımlandı.
+
+
+pencere = Tk()
+pencere.geometry("250x300")
+#pencerenin boyutunu oluşturan satır
+giris = Entry(font="Verdana 14 bold",width=15,justify=RIGHT)
+#text alanı oluşturuldu. Bu alana kullanıcı rakamlarını girecek ve hesaplamalarını gerçekleştirecek
+#width komutu ile boyutunu; justify ile sağ tarafa hizalama yaptık.
+giris.place(x=20,y=20)
+#8. satırda text alanını ekrana yerleştirdik. x ve y ekseninde koordinatlarını girdik.
