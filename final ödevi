@@ -54,6 +54,7 @@ def hesapla () :
 #'s2'değişkeni global olarak kullanılacağı için global değişken olarak tanımlandı.
 
 
+
 pencere = Tk()
 pencere.geometry("250x300")
 #pencerenin boyutunu oluşturan satır
@@ -69,3 +70,5 @@ for i in range(1,10):
 #butonların yerleştirilmesi için bir "for" döngüsü oluşturuldu.
     b.append (Button(text=str(i),font="Verdana 14 bold", command=lambda x=i:yaz(x)))
 #butonlar oluşturuldu. Butonların içindeki değerler belirlendi. Butonlara tıkladığımızda entry alanına yazması için butonlara command atadık.
+
+sayac=1
