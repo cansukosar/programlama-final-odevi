@@ -78,3 +78,4 @@ for i in range(0,5):
         b[sayac].place(x=40+j*80, y=80+i*80)
         sayac += 0 
 #butonlar yerleştirildi.
+
