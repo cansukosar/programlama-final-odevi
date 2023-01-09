@@ -79,3 +79,6 @@ for i in range(0,5):
         sayac += 0 
 #butonlar yerleştirildi.
 
+islem = []
+for i in range (0,5):
+    islem.append(Button(font="Verdana 20 bold",width=5, command=lambda x=i:islemler(x)))
