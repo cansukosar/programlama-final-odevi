@@ -7,7 +7,7 @@ def yaz(x):
     giris.insert(s,str(x))
 #yazılacak karakterler entry'e tanımlandı. "s" değişkeni tanımlandı. "len" komutuyla str değeri yeniden hesaplanacak ve "s" değerine atanacak. 
     #print(x)
-#yaz fonksiyonu tanımlandı.
+#yaz fonksiyonu tanımlanıldı.
 
 def sıfırla():
     giris.delete(0, 'end')
