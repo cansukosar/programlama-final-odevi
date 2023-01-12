@@ -62,7 +62,7 @@ giris = Entry(font="Verdana 14 bold",width=15,justify=RIGHT)
 #text alanı oluşturuldu. Bu alana kullanıcı rakamlarını girecek ve hesaplamalarını gerçekleştirecek
 #width komutu ile boyutunu; justify ile sağ tarafa hizalama yaptık.
 giris.place(x=20,y=20)
-#8. satırda text alanını ekrana yerleştirdik. x ve y ekseninde koordinatlarını girdik..
+#8. satırda text alanını ekrana yerleştirdik. x ve y ekseninde koordinatlarını girdik.
 
 b = []
 #b değişkeninin bir dizi olduğunu belirttik.
