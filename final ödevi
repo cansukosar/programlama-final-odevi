@@ -87,3 +87,14 @@ islem[0]['text'] ="/"
 islem[1]['text'] ="*"
 islem[2]['text'] ="-"
 islem[3]['text'] ="+"
+
+for i in range(0,4):
+#toplama işleminin butonunu döngüyle yerleştirilecek.
+    islem[i].place(x=170,y=50+50i)
+#butonunun x ve y eksenindeki koordinatları girildi.
+    
+   
+    
+
+
+
