@@ -37,9 +37,9 @@ def hesapla () :
     global s2
     s2 = float(giris(get))
     print(s2):
-    gglobal hesaap
+    global hesap
     sonuc=0
-    if (hesap==0):
+    if (hesap==0) :
         sonuc=s2+s1
     elif(hesap==1):
         sonuc=s1-s2
