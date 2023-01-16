@@ -101,7 +101,11 @@ nb = Button(tekst=".", font="Verdana 14 bold",widht=2, command=lambda x=".":yaz(
 np.place(x=70,y=200)
 #nokta butonu yerleştirildi.font, tekst, widht ve command değerleri girildi. x ve y ekseninde koordinatları girildi. 
    
-    
+ eb=
+ Button (text="=",fg='Red',font='Verdana 14 bold',command=hesapla) eb.place (x=120,y=200)
+#eşittir butonu yerleştirildi.x ve y koordinatları girildi.Font,text değerleri girildi.Eşittir butonu 'fg' komutuyla renklendirildi.
+
+
 
 
 
