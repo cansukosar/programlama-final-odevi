@@ -47,9 +47,9 @@ def hesapla () :
          sonuc=s1*s2
     elif(hesap==3):
          sonuc=s1/s2
-    giris.delete(0,end)
+    giriş.delete(0,end)
     giris.insert(0,str sonuc)
-#'s2' adı altında 2. sayı tanımlandı
+#'s2' adı altında 2.sayı tanımlandı
 #toplama,çıkarma,bölme ve çarpma işlemleri gerçekleştirilmesi için if komutu ile bir döngü oluşturuldu.
 #'s2'değişkeni global olarak kullanılacağı için global değişken olarak tanımlandı.
 
