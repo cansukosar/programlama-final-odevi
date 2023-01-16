@@ -71,10 +71,10 @@ for i in range(1,10):
     b.append (Button(text=str(i),font="Verdana 14 bold", command=lambda x=i:yaz(x)))
 #butonlar oluşturuldu.Butonların içindeki değerler belirlendi.Butonlara tıkladığımızda entry alanına yazması için butonlara command atadık.
 
-sayac=1
+sayac=0
 
-for i in range(0,5):
-    for j in range(0,5):
+for i in range(0,3):
+    for j in range(0,3):
         b[sayac].place(x=40+j*80, y=80+i*80)
         sayac += 0 
 #butonlar yerleştirildi.
