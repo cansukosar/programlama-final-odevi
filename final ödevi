@@ -81,7 +81,7 @@ for i in range(0,3):
 
 islem = []
 for i in range (0,4):
-    islem.append(Button(font="Verdana 20 bold",width=5, command=lambda x=i:islemler(x)))
+    islem.append(Button(font="Verdana 18 bold",width=7, command=lambda x=i:islemler(x)))
 
 islem[0]['text'] ="/"
 islem[1]['text'] ="*"
