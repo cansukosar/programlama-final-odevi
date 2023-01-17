@@ -59,7 +59,7 @@ pencere = Tk()
 pencere.geometry("250x300")
 #pencerenin boyutunu oluşturan satır
 giris = Entry(font="Verdana 14 bold",width=15,justify=RIGHT)
-#text alanı oluşturuldu. Bu alana kullanıcı rakamlarını girecek ve hesaplamalarını gerçekleştirecek
+#Text alanı oluşturuldu. Bu alana kullanıcı rakamlarını girecek ve hesaplamalarını gerçekleştirecek
 #width komutu ile boyutunu; justify ile sağ tarafa hizalama yaptık.
 giris.place(x=20,y=20)
 #8. satırda text alanını ekrana yerleştirdik. x ve y ekseninde koordinatlarını girdik.
@@ -69,7 +69,7 @@ b = []
 for i in range(1,10):
 #butonların yerleştirilmesi için bir "for" döngüsü oluşturuldu.
     b.append (Button(text=str(i),font="Verdana 14 bold", command=lambda x=i:yaz(x)))
-#butonlar oluşturuldu.Butonların içindeki değerler belirlendi.Butonlara tıkladığımızda entry alanına yazması için butonlara command atadık.
+#butonlar oluşturuldu.Butonların içindeki değerler belirlendi.Butonlara tıkladığımızda entry alanına yazması için butonlara command atandı.
 
 sayac=0
 
