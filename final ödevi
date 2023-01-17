@@ -107,6 +107,3 @@ np.place(x=70,y=200)
  cb=Button (text="AC",fg = "BLUE", font="Verdana 14 bold" ,command=sıfırla) cb.place 
 (x=20 y=250)
 #ac butonu eklendi.x ve y eksenlerindeki koordinatları girildi.font,text ve command değerleri girildi.
-
-
-
