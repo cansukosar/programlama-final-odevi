@@ -95,7 +95,6 @@ for i in range(0,4):
 
 sb = Button(text="0", font="Vernada 14 bold", commond=lambda x= 0:yaz(0))
 sb.place(x=20,y=200)
-#sıfır butonunun font, text ve command değerleri girildi. x ve y ekseninde koordinatları girildi.
 
 nb = Button(tekst=".", font="Verdana 14 bold",widht=2, command=lambda x=".":yaz("."))
 np.place(x=70,y=200)
