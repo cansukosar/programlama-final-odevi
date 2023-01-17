@@ -104,8 +104,9 @@ np.place(x=70,y=200)
  eb=
  Button (text="=",fg='Red',font='Verdana 14 bold',command=hesapla) eb.place (x=120,y=200)
 #eşittir butonu yerleştirildi.x ve y koordinatları girildi.Font,text değerleri girildi.Eşittir butonu 'fg' komutuyla renklendirildi.
-
-
+ cb=Button (text="AC",fg = "BLUE", font="Verdana 14 bold" ,command=sıfırla) cb.place 
+(x=20 y=250)
+#ac butonu eklendi.x ve y eksenlerindeki koordinatları girildi.font,text ve command değerleri girildi.
 
 
 
