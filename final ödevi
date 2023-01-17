@@ -89,13 +89,13 @@ islem[2]['text'] ="-"
 islem[3]['text'] ="+"
 
 for i in range(0,4):
-#toplama işleminin butonunu döngüyle yerleştirilecek.
-    islem[i].place(x=170,y=50+50i)
-#butonunun x ve y eksenindeki koordinatları girildi.
+#toplama işleminin döngüyle yerleştirilecek.
+    islem[i].place(x=170,y=50+50*i)
+#butonunun x ve y eksenindeki koordinatları girdim.
 
-sb = Button(tekst="0", font="Vernada 14 bold", commond=lambda x= 0:yaz(0))
+sb = Button(text="0", font="Vernada 14 bold", commond=lambda x= 0:yaz(0))
 sb.place(x=20,y=200)
-#sıfır butonunun font, tekst ve command değerleri girildi. x ve y ekseninde koordinatları girildi.
+#sıfır butonunun font, text ve command değerleri girildi. x ve y ekseninde koordinatları girildi.
 
 nb = Button(tekst=".", font="Verdana 14 bold",widht=2, command=lambda x=".":yaz("."))
 np.place(x=70,y=200)
