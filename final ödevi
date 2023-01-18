@@ -109,8 +109,9 @@ nb.place(x=70,y=200)
 (x=20 y=250)
 #ac butonu eklendi.x ve y eksenlerindeki koordinatları girildi.font,text ve command değerleri girildi.
 
-tsb= Button (text=sil,font= Verd ana 12 bold,command=teksil) tsb.place (x=190 y=500 )
-#sil butonu eklendi.x ve y eksenindeki koordinatları girildi.font,text ve command değerleri girildi.
+tsb= Button (text=sil,font= Verd ana 14 bold,command=teksil) 
+tsb.place (x=190 y=500 )
+#sil butonu eklendi. x ve y eksenindeki koordinatları girildi.font,text ve command değerleri girildi.
 
 
 pencere.mainloop()
