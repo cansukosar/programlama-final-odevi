@@ -65,7 +65,7 @@ giris.place(x=20,y=20)
 #8. satırda text alanını ekrana yerleştirdik. x ve y ekseninde koordinatlarını girdik.
 
 b = []
-#b değişkeninin bir dizi olduğunu belirtilirdi.
+#b değişkeninin bir dizi olduğu belirtilirdi.
 for i in range(1,10):
 #butonların yerleştirilmesi için bir "for" döngüsü oluşturuldu.
     b.append (Button(text=str(i),font="Verdana 14 bold", command=lambda x=i:yaz(x)))
