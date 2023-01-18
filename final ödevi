@@ -5,7 +5,7 @@ from tkinter import *
 def yaz(x):
     s = len(giris.get())
     giris.insert(s,str(x))
-#yazılacak karakterler entry'e tanımladı. "s" değişkeni tanımladı. "len" komutuyla str değeri yeniden hesaplanacak ve "s" değerine atanacak. 
+#yazılacak karakterler entry'e tanımlandı. "s" değişkeni tanımlandı. "len" komutuyla str değeri yeniden hesaplanacak ve "s" değerine atanacak. 
     #print(x)
 #yaz fonksiyonu tanımlandı.
 
