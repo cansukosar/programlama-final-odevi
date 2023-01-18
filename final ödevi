@@ -7,11 +7,11 @@ def yaz(x):
     giris.insert(s,str(x))
 #yazılacak karakterler entry'e tanımladık. "s" değişkeni tanımladık. "len" komutuyla str değeri yeniden hesaplanacak ve "s" değerine atanacak. 
     #print(x)
-#yaz fonksiyonu tanımlandık.
+#yaz fonksiyon tanımlandı.
 
 def sıfırla():
     giris.delete(0, 'end')
-#AC butonunun işlevini yerine getirmesi için fonksiyonunu tanımlandık.
+#AC butonunun işlevini yerine getirmesi için fonksiyonu tanımlandı.
 
 def teksil():
     metinuzunlugu = len(giris.get())
