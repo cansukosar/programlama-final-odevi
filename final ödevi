@@ -65,7 +65,7 @@ giris.place(x=20,y=20)
 #8. satırda text alanını ekrana yerleştirdik. x ve y ekseninde koordinatlarını girdik.
 
 b = []
-#b değişkeninin bir dizi olduğu belirtilirdi.
+#b değişkeninin bir dizi olduğu belirtildi.
 for i in range(1,10):
 #butonların yerleştirilmesi için bir "for" döngüsü oluşturuldu.
     b.append (Button(text=str(i),font="Verdana 14 bold", command=lambda x=i:yaz(x)))
@@ -93,13 +93,13 @@ for i in range(0,4):
     islem[i].place(x=170,y=50+50*i)
 #butonunun x ve y eksenindeki koordinatları girildi.
 
-sb = Button(text="0", font="Verdana 14 bold", command=lambda x= 0:yaz(0))
+sb = Button(text="0", font= "Verdana 14 bold", command=lambda x= 0:yaz(0))
 sb.place(x=20,y=200)
-#sıfır butonunun font, text ve command değerleri girildi.
+#sıfır butonunun font, text ve command değerleri girildi. x ve y ekseninde koordinatları girildi.
 
-nb = Button(text=".", font="Verdana 14 bold",width=2, command=lambda x=".":yaz("."))
+nb = Button(text=".", font="Verdana 14 bold", width=2, command=lambda x=".":yaz("."))
 nb.place(x=70,y=200)
-#nokta butonu yerleştirildi.font, tekst, widht ve command değerleri girildi. x ve y ekseninde koordinatları girildi. 
+#nokta butonu yerleştirildi. font, text, widht ve command değerleri girildi. x ve y ekseninde koordinatları girildi. 
    
  eb = Button (text="=",fg='RED',font='Verdana 14 bold',command=hesapla)
  eb.place (x=120,y=200)
