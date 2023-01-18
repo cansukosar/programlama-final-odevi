@@ -40,18 +40,18 @@ def hesapla () :
     global hesap
     sonuc=0
     if (hesap==0) :
-        sonuc=s1+s2
+        sonuc = s1 + s2
     elif(hesap==1):
-        sonuc=s1-s2
+        sonuc = s1 - s2
     elif(hesap==2):
-         sonuc=s1*s2
+         sonuc = s1 * s2
     elif(hesap==3):
-         sonuc=s1/s2
+         sonuc = s1 / s2
     giriş.delete(0,'end')
     giris.insert(0,str(sonuc))
-#'s2' adı altında 2.sayı tanımlandı
+#"s2" adı altında 2.sayı tanımlandı
 #toplama,çıkarma,bölme ve çarpma işlemleri gerçekleştirilmesi için if komutu ile bir döngü oluşturuldu.
-#'s2'değişkeni global olarak kullanılacağı için global değişken olarak tanımlandı.
+#"s2" değişkeni global olarak kullanılacağı için global değişken olarak tanımlandı.
 
 
 
@@ -104,11 +104,9 @@ nb.place(x=70,y=200)
  eb=
  Button (text="=",fg='Red',font='Verdana 14 bold',command=hesapla) eb.place (x=120,y=200)
 #eşittir butonu yerleştirildi.x ve y koordinatları girildi.Font,text değerleri girildi.Eşittir butonu 'fg' komutuyla renklendirildi.
- 
  cb=Button (text="AC",fg = "BLUE", font="Verdana 14 bold" ,command=sıfırla) cb.place 
 (x=20 y=250)
 #ac butonu eklendi.x ve y eksenlerindeki koordinatları girildi.font,text ve command değerleri girildi.
- 
  tsb= Button (text=sil,font= Verd ana 12 bold,command=teksil) tsb.place (x=190 y=500 )
 #sil butonu eklendi.x ve y eksenindeki koordinatları girildi.font,text ve command değerleri girildi.
 pencere.mainloop()
