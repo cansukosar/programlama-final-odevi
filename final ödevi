@@ -5,9 +5,9 @@ from tkinter import *
 def yaz(x):
     s = len(giris.get())
     giris.insert(s,str(x))
-#yazılacak karakterler entry'e tanımlanıldı. "s" değişkeni tanımlandı. "len" komutuyla str değeri yeniden hesaplanacak ve "s" değerine atanacak. 
+#yazılacak karakterler entry'e tanımladık. "s" değişkeni tanımladık. "len" komutuyla str değeri yeniden hesaplanacak ve "s" değerine atanacak. 
     #print(x)
-#yaz fonksiyonu tanımlandı.
+#yaz fonksiyonu tanımlanıldı.
 
 def sıfırla():
     giris.delete(0, 'end')
