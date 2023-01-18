@@ -35,7 +35,7 @@ def islemler(x):
 s2 = 0
 def hesapla () :
     global s2
-    s2 = float(giris(get))
+    s2 = float(giris.get())
     print(s2):
     global hesap
     sonuc=0
