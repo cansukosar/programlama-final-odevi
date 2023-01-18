@@ -33,13 +33,13 @@ def islemler(x):
 #ilk sayı yazıldıktan sonra ve yapılacak işlem belirlendikten sonra ikinci sayının yazılması için entry kısmının boşaltılması işlemi tanımlandı.
 
 s2 = 0
-def hesapla () :
+def hesapla():
     global s2
     s2 = float(giris.get())
-    print(s2):
+    print(s2)
     global hesap
     sonuc=0
-    if (hesap==0) :
+    if (hesap==0):
         sonuc = s1 + s2
     elif(hesap==1):
         sonuc = s1 - s2
@@ -59,7 +59,7 @@ pencere = Tk()
 pencere.geometry("250x300")
 #pencerenin boyutunu oluşturan satırlar tanımlandı
 giris = Entry(font="Verdana 14 bold",width=15,justify=RIGHT)
-#Text alanı oluşturuldu. Bu alana kullanıcı rakamlarını girecek ve hesaplamalarını gerçekleştirecek.
+#text alanı oluşturuldu. Bu alana kullanıcı rakamlarını girecek ve hesaplamalarını gerçekleştirecek.
 #width komutu ile boyutunu; justify ile sağ tarafa hizalama yaptık.
 giris.place(x=20,y=20)
 #8. satırda text alanını ekrana yerleştirdik. x ve y ekseninde koordinatlarını girdik.
