@@ -101,12 +101,16 @@ nb = Button(text=".", font="Verdana 14 bold",width=2, command=lambda x=".":yaz("
 nb.place(x=70,y=200)
 #nokta butonu yerleştirildi.font, tekst, widht ve command değerleri girildi. x ve y ekseninde koordinatları girildi. 
    
- eb=
- Button (text="=",fg='Red',font='Verdana 14 bold',command=hesapla) eb.place (x=120,y=200)
+ eb = Button (text="=",fg='RED',font='Verdana 14 bold',command=hesapla)
+ eb.place (x=120,y=200)
 #eşittir butonu yerleştirildi.x ve y koordinatları girildi.Font,text değerleri girildi.Eşittir butonu 'fg' komutuyla renklendirildi.
- cb=Button (text="AC",fg = "BLUE", font="Verdana 14 bold" ,command=sıfırla) cb.place 
+ 
+ cb = Button (text="AC",fg = "BLUE", font="Verdana 14 bold" ,command=sıfırla) cb.place 
 (x=20 y=250)
 #ac butonu eklendi.x ve y eksenlerindeki koordinatları girildi.font,text ve command değerleri girildi.
- tsb= Button (text=sil,font= Verd ana 12 bold,command=teksil) tsb.place (x=190 y=500 )
+
+tsb= Button (text=sil,font= Verd ana 12 bold,command=teksil) tsb.place (x=190 y=500 )
 #sil butonu eklendi.x ve y eksenindeki koordinatları girildi.font,text ve command değerleri girildi.
+
+
 pencere.mainloop()
