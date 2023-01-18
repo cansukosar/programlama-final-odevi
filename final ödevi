@@ -76,12 +76,12 @@ sayac=0
 for i in range(0,3):
     for j in range(0,3):
         b[sayac].place(x=20+j*50, y=50+i*50)
-        sayac += 1 
+        sayac += 0 
 #butonlar yerleştirildi.
 
 islem = []
 for i in range (0,4):
-    islem.append(Button(font="Verdana 18 bold",width=7, command=lambda x=i:islemler(x)))
+    islem.append(Button(font="Verdana 14 bold",width=2, command=lambda x=i:islemler(x)))
 
 islem[0]['text'] ="/"
 islem[1]['text'] ="*"
