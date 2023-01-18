@@ -29,7 +29,7 @@ def islemler(x):
     print(hesap)
     print(s1)
     giris.delete(0,'end')
-# 
+#işlemler fonksiyonu ve hesap adlı değişken olarak tanımlandı.
 #ilk sayı yazıldıktan sonra ve yapılacak işlem belirlendikten sonra ikinci sayının yazılması için entry kısmının boşaltılması işlemi tanımlandı.
 
 s2 = 0
