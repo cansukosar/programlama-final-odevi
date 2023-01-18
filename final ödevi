@@ -5,7 +5,7 @@ from tkinter import *
 def yaz(x):
     s = len(giris.get())
     giris.insert(s,str(x))
-#yazılacak karakterler entry'e tanımladık. "s" değişkeni tanımladık. "len" komutuyla str değeri yeniden hesaplanacak ve "s" değerine atanacak. 
+#yazılacak karakterler entry'e tanımladı. "s" değişkeni tanımladı. "len" komutuyla str değeri yeniden hesaplanacak ve "s" değerine atanacak. 
     #print(x)
 #yaz fonksiyon tanımlandı.
 
@@ -57,9 +57,9 @@ def hesapla () :
 
 pencere = Tk()
 pencere.geometry("250x300")
-#pencerenin boyutunu oluşturan satır
+#pencerenin boyutunu oluşturan satırlar tanımlandı
 giris = Entry(font="Verdana 14 bold",width=15,justify=RIGHT)
-#Text alanı oluşturuldu. Bu alana kullanıcı rakamlarını girecek ve hesaplamalarını gerçekleştirecek
+#Text alanı oluşturuldu. Bu alana kullanıcı rakamlarını girecek ve hesaplamalarını gerçekleştirecek.
 #width komutu ile boyutunu; justify ile sağ tarafa hizalama yaptık.
 giris.place(x=20,y=20)
 #8. satırda text alanını ekrana yerleştirdik. x ve y ekseninde koordinatlarını girdik.
